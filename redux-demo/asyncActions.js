@@ -57,7 +57,7 @@ const reducer = (state = initialState, action) => {
     case FETCH_USERS_REQUEST:
       return {
         ...state,
-        loading: true
+        loading: true,
       }
     case FETCH_USERS_SUCCESS:
       return {
